@@ -26,3 +26,9 @@ def contact_page(request):
     if contact_form.is_valid():
         print(contact_form.cleaned_data)
     return render(request, 'contact/view.html', context)
+
+def login_page(request):
+    return  render(request,"",{})
+
+def register_page(request):
+    return  render(request,"",{})
